@@ -2,13 +2,23 @@
 
 ## Unidad 3. Perceptrón
 
+### Objetivo
+
+En esta clase el alumno conocerá:
+
+* La estructura básica del perceptrón.
+* Las funciones de activación que pueden ser utilizadas en una neurona.
+* La regla para realizar el ajuste de los pesos. 
+* El problema relacionado con la representación del límite de decisión del perceptrón.
+
 ### 1. Estructura básica
 
 * 1943 - McCullock & Pitts (MCP) describen un célula nerviosa como una simple compuerta lógica nerviosa con salidas binarias.
 
 * 1957 - Frank Rosenblantt publicó el primer concepto de las reglas de aprendizaje del perceptrón basado en el modelo neuronal de MCP.
 
-![Perceptron](./img/perceptron.png)
+<img src="./img/perceptron.png" align="center" hspace="10">
+<div style="text-align: justify;">
 
 ### 2. Fuciones de activación
 
