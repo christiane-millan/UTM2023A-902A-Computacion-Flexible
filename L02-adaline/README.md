@@ -4,11 +4,13 @@
 
 ### Objetivo
 
-La estructura básica de Adaline. 
-Las funciones de error utilizadas en Adaline. 
-La regla del Gradientes Descendente y Gradientes Descendente Estocástico.
-Estrategia de ajuste de pesos online y banco 
-La estructura básica de Madaline
+En esta clase el alumno conocerá:
+
+* La estructura básica de Adaline. 
+* Las funciones de error utilizadas en Adaline. 
+* La regla del Gradientes Descendente y Gradientes Descendente Estocástico.
+* Estrategia de ajuste de pesos online y banco 
+* La estructura básica de Madaline
 
 ### 1. Estructura básica de Adaline
 
