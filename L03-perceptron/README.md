@@ -14,6 +14,7 @@ El algoritmo del perceptrón puede ser resumido en los siguientes pasos:
     2. Actualizar los pesos
 
 [Ejemplo](./code/perceptron-example.ipynb)
+[Práctica 1.](./code/01-practice-perceptron/README.md)
 
 ### 4. El problema de representación
 
