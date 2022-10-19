@@ -1,4 +1,6 @@
-## Unidad 3 Perceptrón
+[`Computación Flexible`](../README.md) > `Unidad 3. Perceptrón`
+
+## Unidad 3. Perceptrón
 
 ### 1. Estructura básica
 
@@ -107,3 +109,5 @@ Es importante notar que la convergencia del perceptrón es solamente garantizada
 
 * [`Ejemplo`](./code/perceptron_sklrn_iris.ipynb)
 * [Práctica 2. ]()
+
+[`Anterior`](../README.md) > [`Siguiente`]()
