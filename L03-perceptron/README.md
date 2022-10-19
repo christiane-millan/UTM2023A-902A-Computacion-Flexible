@@ -35,7 +35,9 @@ $\varphi(v)= \left \{ \begin{matrix}
 
 Por simplicidad, podemos traer el umbral $\theta$ al lado izquierdo de la ecuación y definir a peso-cero como $w_0 = -\theta$ y $x_0= 1$, por lo tanto escribimos $z$ en una forma más compacta desde:
 
-$z= w_0x_0 + w_1x_1+ \ldots+w_m x_m = w^Tx$  y $\varphi(v)= \left\{ \begin{matrix} 
+$z= w_0x_0 + w_1x_1+ \ldots+w_m x_m = w^Tx$  y
+ 
+$\varphi(v)= \left\{ \begin{matrix} 
 1 & \text{si }v \geq 0\\ -1 & \text{en otro caso}
 \end{matrix} \right.$
 
@@ -103,8 +105,6 @@ $\Delta w_j= (1-(-1))0.5=(2)0.5=1$
 El peso actualizado es proporcional a el valor de $x_j^{(i)}$. Por ejemplo, si se tuviera otro ejemplo, $x_j^{(i)}= 2$, que es incorrectamente clasificado como -1, moveríamos el límite de decisión por un incluso extensión más larga para clasificar este ejemplo correctamente la próxima vez:
 
 $\Delta w_j= (1^{(i)}-(-1)^{(i)})2^{(i)}=(2)2^{(i)}=4$
-
-E
 
 * [Ejemplo](./code/perceptron-example.ipynb) 
 * [Práctica 1. Aprendizaje del perceptrón](./code/01-practice-perceptron/README.md)
