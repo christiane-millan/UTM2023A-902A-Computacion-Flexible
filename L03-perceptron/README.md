@@ -13,8 +13,8 @@ El algoritmo del perceptrón puede ser resumido en los siguientes pasos:
     1. Calcular el valor de salida, $\hat{y}$
     2. Actualizar los pesos
 
-[Ejemplo](./code/perceptron-example.ipynb)
-[Práctica 1.](./code/01-practice-perceptron/README.md)
+* [Ejemplo](./code/perceptron-example.ipynb) 
+* [Práctica 1. Aprendizaje del perceptrón](./code/01-practice-perceptron/README.md)
 
 ### 4. El problema de representación
 
