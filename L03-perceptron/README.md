@@ -102,3 +102,8 @@ E
 Es importante notar que la convergencia del perceptrón es solamente garantizada si las dos clases son linealmente separables y la tasa de aprendizaje es suficientemente pequeña. Si las dos clases no pueden ser separadas por un límite de decisión lineal, podremos solo especificar un número máximo de pasadas sobre el conjunto de entrenamiento (épocas) o un umbral para el número de clasificaciones incorrectas toleradas, el perceptrón podría nunca parar de actualizar los pesos de otro modo. 
 
 ![separable](./img/separable.png)
+
+### Implementación de Perceptrón con SciKit-Learn
+
+* [`Ejemplo`](./code/perceptron_sklrn_iris.ipynb)
+* [Práctica 2. ]()
