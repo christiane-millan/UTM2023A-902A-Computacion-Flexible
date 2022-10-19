@@ -12,12 +12,12 @@
 
 Ahora, si la salida de activación de un ejemplo en particular $x^{(i)}$, eso es, la salida de $\varphi(z)$, es mayor que el umbral definido $\theta$, lo predecimos como de la clase 1 y clase -1 de otro modo. En el algoritmo del perceptrón, la función de activación $\varphi(\cdot)$ es una simple función de paso de unidad, la cual algunas veces es llamada función de paso Heaviside:
 
- $\varphi(z)= \left\{ \begin{matrix} 
+ $\varphi(z)= \left \{ \begin{matrix} 
 1 & \text{si }v \geq 0\\
 0  & \text{si }v <0
 \end{matrix} \right.$            o
 
-$\varphi(v)= \left\{ \begin{matrix} 
+$\varphi(v)= \left \{ \begin{matrix} 
 1 & \text{si }v \geq 0\\ -1 & \text{en otro caso}
 \end{matrix} \right.$
 
