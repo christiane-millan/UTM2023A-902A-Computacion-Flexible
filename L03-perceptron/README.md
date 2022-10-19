@@ -2,7 +2,34 @@
 
 ### 1. Estructura básica
 
+* 1943 - McCullock & Pitts (MCP) describen un célula nerviosa como una simple compuerta lógica nerviosa con salidas binarias.
+
+* 1957 - Frank Rosenblantt publicó el primer concepto de las reglas de aprendizaje del perceptrón basado en el modelo neuronal de MCP.
+
+![Perceptron](./img/perceptron.png)
+
 ### 2. Fuciones de activación
+
+Ahora, si la salida de activación de un ejemplo en particular $x^{(i)}$, eso es, la salida de $\varphi(z)$, es mayor que el umbral definido $\theta$, lo predecimos como de la clase 1 y clase -1 de otro modo. En el algoritmo del perceptrón, la función de activación $\varphi(\cdot)$ es una simple función de paso de unidad, la cual algunas veces es llamada función de paso Heaviside:
+
+ $\varphi(z)= \left\{ \begin{matrix} 
+1 & \text{si }v \geq 0\\
+0  & \text{si }v <0
+\end{matrix} \right.$            o
+
+$\varphi(v)= \left\{ \begin{matrix} 
+1 & \text{si }v \geq 0\\ -1 & \text{en otro caso}
+\end{matrix} \right.$
+
+Por simplicidad, podemos traer el umbral $\theta$ al lado izquierdo de la ecuación y definir a peso-cero como $w_0 = -\theta$ y $x_0= 1$, por lo tanto escribimos $z$ en una forma más compacta desde:
+
+$z= w_0x_0 + w_1x_1+ \ldots+w_m x_m = w^Tx$  y $\varphi(v)= \left\{ \begin{matrix} 
+1 & \text{si }v \geq 0\\ -1 & \text{en otro caso}
+\end{matrix} \right.$
+
+En la siguiente figura ilustra como la salida de la red $z=w^T x$ es compactada en una salida binaria (-1 o 1) por la función de aptitud del perceptrón y cómo puede ser usada para descriminar entre dos clases linealmente separables:
+
+![activation_function](img/Untitled.png)
 
 ### 3. Ajuste de pesos por Descenso Escalonado
 
@@ -72,3 +99,6 @@ E
 
 ### 4. El problema de representación
 
+Es importante notar que la convergencia del perceptrón es solamente garantizada si las dos clases son linealmente separables y la tasa de aprendizaje es suficientemente pequeña. Si las dos clases no pueden ser separadas por un límite de decisión lineal, podremos solo especificar un número máximo de pasadas sobre el conjunto de entrenamiento (épocas) o un umbral para el número de clasificaciones incorrectas toleradas, el perceptrón podría nunca parar de actualizar los pesos de otro modo. 
+
+![separable](./img/separable.png)
