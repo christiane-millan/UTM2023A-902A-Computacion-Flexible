@@ -93,4 +93,4 @@ Algoritmo de entrenamiento
 
 ### 7. Modelado de funciones booleanas.
 
-[`Anterior`](../README.md) > [`Siguiente`](../L03-perceptron/README.md)
+[`Anterior`](../README.md) | [`Siguiente`](../L03-perceptron/README.md)
