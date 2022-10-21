@@ -1,7 +1,8 @@
 # Computación Flexible
 
 Universidad Tecnológica de la Mixteca
-Crhstian Millán
+
+Christian Millán
 
 ## Objetivo
 
