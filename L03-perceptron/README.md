@@ -120,4 +120,4 @@ Es importante notar que la convergencia del perceptrón es solamente garantizada
 * [`Ejemplo`](./code/perceptron_sklrn_iris.ipynb)
 * [Práctica 2. ]()
 
-[`Anterior`](../README.md) > [`Siguiente`]()
+[`Anterior`](../L02-adaline/README.md) > [`Siguiente`]()

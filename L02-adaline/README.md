@@ -83,12 +83,14 @@ Algoritmo de entrenamiento
 4. Actualizar los pesos
 5. Repetir los pasos 2 al 4 hasta que las salidas reales y las deseables sean iguales para todos los vectores del conjunto de entrenamiento.
 
-[`Ejemplo de aprendizaje de Adaline`](./code/Ejemplo%20Adaline.ipynb)
-[`Práctica de Adaline GD`](./code/AdalineGD.ipynb)
-[`Práctica de Adaline SDG`](./code/AdalineSGD.ipynb)
+* [`Ejemplo de aprendizaje de Adaline`](./code/Ejemplo%20Adaline.ipynb)
+* [`Práctica de Adaline GD`](./code/AdalineGD.ipynb)
+* [`Práctica de Adaline SDG`](./code/AdalineSGD.ipynb)
 
 ### 5. Estructura básica de Madaline
 
 ### 6. Reglas de entrenamiento de Madaline
 
-### 7. Modealado de funciones booleanas.
+### 7. Modelado de funciones booleanas.
+
+[`Anterior`](../README.md) > [`Siguiente`](../L03-perceptron/README.md)
