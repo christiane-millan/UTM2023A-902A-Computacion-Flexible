@@ -111,8 +111,31 @@ Otra ventaja de SGD es que podemos usarla para un entrenamiento online. en este 
 
 ### 5. Estructura básica de Madaline
 
+En 1959, Widrow & Hoff desarrollaron el model **Adaline** (ADAptative LINear Element) y Madaline (Multiple ADAptative LINear Element).
+
+Después de la publicación de la regla del Perceptrón y el algoritmos LMS (Regla Delta de Widrow-Hoff), en las próximas décadas nuevas técnicas has sido desarrolladas en el campo de las RNAs. Uno de los primeros desarrollos fue el aprendizaje de matrices de Steinbuch, una máquina de reconocimiento de patrones basada en funciones lineales discriminatorias. Al mismo tiempo Widrow y sus estudiantes planeaban **Madaline Rule I (MRI)**, la primera regla de aprendizaje para RNAs con múltiples elementos adaptativos (múltiples neuronas Adaline).
+
+En 1987, Widrow y Winter desarrollaron una nueva técnica basada en MRI que pudiera adoptar multiples capas de elementos adaptativos con el uso de limitadores de cuantificación, el resultado fue **Madaline Rule II**. 
+
+En el año de 1988, David Andes desarrolló wy**Madaline Rule III** que modificó a Madaline II mediante el reemplazo de los limitadores de cuantificación en Adaline con funciones sigmodeas. Widrow y sus estudiantes fueron los primeros en reconocer que esta regla era matemáticamente equivalente a backpropagation.
+
 ### 6. Reglas de entrenamiento de Madaline
 
-### 7. Modelado de funciones booleanas.
+Madaline consta de una capa de Adalines y una función de mayoría cuya respuesta binaria depende de las repuestas de las Adalines.
+
+El algoritmo de entrenamiento es el siguiente:
+
+1. Inicializar los pesos
+2. Para cada Madaline
+    1. Para  cada ejemplo de entrenamiento, $x^{(i)}$
+    2. Calcular la salida, $\hat y$
+    3. Determinar la salida ca
+3. Determinar la salida del Madaline $M(t)=F_{mayoría}(y_k(t))$
+4. Determinar el error y actualizar los pesos
+    1. Si $M(t)=$  salida deseada, entonces no se actualiza, de otro modo los elementos Adaline compiten y se actualiza el ganador, es decir al Adaline con salida errónea más cercana a cero en su salida original (y)
+
+5. Repetir los pasos del 2 al 4 hasta que las salidas reales y las deseadas sean iguales para todos los vectores del conjunto de entrenamiento.
+
+### 7. Modelado de funciones booleanas
 
 [`Anterior`](../README.md) | [`Siguiente`](../L03-perceptron/README.md)
