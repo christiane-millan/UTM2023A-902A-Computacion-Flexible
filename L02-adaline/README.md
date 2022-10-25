@@ -84,7 +84,29 @@ Algoritmo de entrenamiento
 5. Repetir los pasos 2 al 4 hasta que las salidas reales y las deseables sean iguales para todos los vectores del conjunto de entrenamiento.
 
 * [`Ejemplo de aprendizaje de Adaline`](./code/Ejemplo%20Adaline.ipynb)
+
+El gradiente descendente es uno de los algoritmos que se benefician con el escalado de características. Un método para el escalado de características es la estandarización. Este escalado de a los datos las propiedades de una distribución normal estándar: media cero y varianza unitaria. Esta proceso de normalización ayuda al GD a converger más rápidamente. Sin embargo, no hace a la muestra de datos original se distribuya normalmente. La normalización desplaza la media de cada característica para que se centre en cero y cada característica tenga una desviación estándar de 1 (varianza unitaria). Por ejemplo, para estandarizar la n-ésima característica, podemos simplemente restar la media de la muestra, $\mu_j$, de cada ejemplo de entrenamiento y dividirla por su desviación estándar  $\sigma_j$:
+
+$x'_j = \frac{x_j - \mu_j}{\sigma_j}$
+
 * [`Práctica de Adaline GD`](./code/AdalineGD.ipynb)
+
+**Gradiente Descendente Estocástico.**
+
+El proceso de minimizar la función de costo al dar un paso en la dirección opuesta del costo del gradiente que es calculado a partir de toda la muestra de entrenamiento, es referido como **gradiente descendente en batch**. Si se tiene un conjunto de datos con millones de ejemplos, utilizar el aprendizaje en batch puede resultar costo en términos computacionales. Sobre todo sí tenemos que re-evaluar toda la muestra de entrenamiento cada vez que se da un paso hacia el mínimo global.
+
+Una alternativa común al algoritmo del gradiente descendente en batch es el algoritmo de **Gradiente Descendente Estocástico (SGD, Stochastic Gradient Descent)**, el cual es llamado también **iterativo**  o gradiente descendente **online**. En lugar de actualizar los pesos basado en la suma de los errores acumulados sobre toda la muestra de entrenamiento, $x^{(i)}$:
+
+$\Delta w_j =  \eta \Sigma_i (y^{(i)} - \phi(z^{(i)}))x_j^{(i)}$
+
+se actualizan los pesos incrementalmente para cada una de las muestras del conjunto de entrenamiento:
+
+ $\eta (y^{(i)} - \phi(z^{(i)}))x_j^{(i)}$
+
+A pesar de que SGD puede ser considerado como una  aproximación de de gradiente descendente, alcanza la convergencia normalmente más rápido por la mayor frecuencia de actualización de pesos. Dado que cada gradiente es calculado con base en un solo ejemplo de entrenamiento, la superficie de error es más ruidosa que en gradiente descendente, lo cual puede tener la ventaja que SGD puede escapar de un mínimo local plano mucho más fácilmente si trabajamos con funciones de costo no lineales. Para obtener resultados satisfactorios vía SGD es muy importante presentar los datos en un orden aleatorio, también, cambiaremos el orden de los datos de entrenamiento para cada época para prevenir ciclos.
+
+Otra ventaja de SGD es que podemos usarla para un entrenamiento online. en este entrenamiento, el modelo entrena al momento que llegan nuevos datos de entrenamiento. Esto es especialmente práctico  si se cuenta con muchos datos, por ejemplo, datos de clientes de una aplicación web, Usando aprendizaje online, el sistema puede inmediatamente adaptarse a los cambios, y los datos de entrenamiento pueden ser descartados después de actualizar el modelo si el espacio de memoria es un cuestión.
+
 * [`Práctica de Adaline SDG`](./code/AdalineSGD.ipynb)
 
 ### 5. Estructura básica de Madaline
