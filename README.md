@@ -12,7 +12,7 @@ El alumno deberá estar capacitado para determinar en qué situaciones es conv
 
 ## Contenido
 
-Unidad 1. Introducción
+[Unidad 1. Introducción](./L01-intro/README.md)
 
 [Unidad 2. Adaline](./L02-adaline/README.md)
 
