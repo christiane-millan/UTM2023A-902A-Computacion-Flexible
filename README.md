@@ -23,44 +23,44 @@ El alumno deberá estar capacitado para determinar en qué situaciones es conv
 
 ## Datasets
 
-### 1. World Happiness Report
+**1. World Happiness Report.**
 
 [Descripción](./datasets/world_happiness_report/world_happiness_report.pdf)
 | Descarga: [2015Procesado.csv](./datasets/world_happiness_report/2015Procesado.csv) - [2015Procesado.csv](./datasets/world_happiness_report/2015Procesado.csv)
-| Responsable: José Eduardo Castellanos Narvaez
+| José Eduardo Castellanos Narvaez
 
-### 2. Milk Quality
+**2. Milk Quality.**
 
 [Descripción](./datasets/02-milk-quality/milkQuality.md)
 | [Descarga](https://www.kaggle.com/datasets/yrohit199/milk-quality)
-| Responsable: Baruc Cisneros Cruz
+| Baruc Cisneros Cruz
 
-### 3. Wisconsin Diagnostic Breast Cancer (WDBC)
+**3. Wisconsin Diagnostic Breast Cancer (WDBC).**
 
 [Descripción](./datasets/03-Wisconsin-Diagnostic-Breast-Cancer/winsconsin-breast-cancer.md)
 |[Descarga](./../datasets/03-Wisconsin-Diagnostic-Breast-Cancer/breast-cancer-wisconsin.csv)
-| Responsable: Leonel Cruz Peralta
+| Leonel Cruz Peralta
 
-### 4. Mushrooms
+**4. Mushrooms.**
 
 [Descripción](https://github.com/Alejandro2000Lopez/Tarea-2_1-Dataset-Mushroom/blob/main/DataSet%20Mushroom.ipynb)
 |[Descarga](https://github.com/Alejandro2000Lopez/Tarea-2_1-Dataset-Mushroom/blob/main/mushrooms.csv)
-| Responsable: Jesús Alejandro López Guevara
+| Jesús Alejandro López Guevara
 
-### 5. Water
+**5. Water.**
 
 [Descripción](./datasets/05-water/Water%20Datset.md)
 |[Descarga](./datasets/05-water/water_potability.csv)
-| Responsable: William Mendez González
+| William Mendez González
 
-### 6. Wine
+**6. Wine.**
 
 [Descripción](./datasets/06-wine/06-wine.md)
 |[Descarga](https://archive.ics.uci.edu/ml/machine-learning-databases/wine/)
-| Responsable: Luis René Morales Velasco
+| Luis René Morales Velasco
 
-### 7. Drug names
+**7. Drug names.**
 
 [Descripción](./07-drug-names/DATASET.md)
 |[Descarga](./datasets/07-drug-names/dataset1/))
-| Responsable: Miguel Ángel Uribe Matus
+| Miguel Ángel Uribe Matus
