@@ -8,7 +8,7 @@ En esta clase el alumno conocerá:
 
 * La estructura básica del perceptrón.
 * Las funciones de activación que pueden ser utilizadas en una neurona.
-* La regla para realizar el ajuste de los pesos. 
+* La regla para realizar el ajuste de los pesos.
 * El problema relacionado con la representación del límite de decisión del perceptrón.
 
 ### 1. Estructura básica
@@ -120,4 +120,4 @@ Es importante notar que la convergencia del perceptrón es solamente garantizada
 * [`Ejemplo`](./code/perceptron_sklrn_iris.ipynb)
 * [Práctica 2. ]()
 
-[`Anterior`](../L02-adaline/README.md) | [`Siguiente`](../README.md)
+[`Anterior`](../L02-adaline/README.md) | [`Siguiente`](../L04-backpropagation/README.md)
