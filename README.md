@@ -18,4 +18,4 @@ El alumno deberá estar capacitado para determinar en qué situaciones es conv
 
 [Unidad 3. Perceptrón](./L03-perceptron/README.md)
 
-[Unidad 4. Retropagación]()
+[Unidad 4. Retropagación](./L04-backpropagation/README.md)

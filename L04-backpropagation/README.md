@@ -1,6 +1,6 @@
 [`Computación Flexible`](../README.md) > `Unidad 4. Backpropagation`
 
-## Unidad 3. Perceptrón
+## Unidad 4. Backpropagation
 
 ### Objetivo
 
