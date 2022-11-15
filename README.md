@@ -24,10 +24,10 @@ El alumno deberá estar capacitado para determinar en qué situaciones es conv
 
 ## Datasets
 
-1. **World Happiness Report.** [Descripción](./datasets/world_happiness_report/world_happiness_report.pdf)
-| Descarga: [2015Procesado.csv](./datasets/world_happiness_report/2015Procesado.csv) - [2015Procesado.csv](./datasets/world_happiness_report/2015Procesado.csv)
+1. **World Happiness Report.** [Descripción](./datasets/01-world_happiness_report/world_happiness_report.pdf)
+| Descarga: [2015Procesado.csv](./datasets/01-world_happiness_report/)
 | José Eduardo Castellanos Narvaez
-2. **Milk Quality.** [Descripción](./datasets/02-milk-quality/milkQuality.md)
+1. **Milk Quality.** [Descripción](./datasets/02-milk-quality/milkQuality.md)
 | [Descarga](https://www.kaggle.com/datasets/yrohit199/milk-quality)
 | Baruc Cisneros Cruz
 3. **Wisconsin Diagnostic Breast Cancer (WDBC).** [Descripción](./datasets/03-Wisconsin-Diagnostic-Breast-Cancer/winsconsin-breast-cancer.md)
