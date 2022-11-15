@@ -23,6 +23,6 @@ Estas redes tienen un tipo especial de conexión entre capas llamado MLP.
 ### Implementación de Feedforwar y Backpropagation paso a paso
 
 * [`Ejemplo Online`](./code/brackpropagation_online.ipynb)
-* [Práctica 2. ]()
+* [Práctica 1. ]()
 
 [`Anterior`](../L03-perceptron/README.md) | [`Siguiente`](../README.md)
