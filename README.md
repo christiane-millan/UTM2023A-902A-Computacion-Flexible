@@ -25,23 +25,23 @@ El alumno deberá estar capacitado para determinar en qué situaciones es conv
 ## Datasets
 
 1. **World Happiness Report.** [Descripción](./datasets/01-world_happiness_report/world_happiness_report.pdf)
-| Descarga: [2015Procesado.csv](./datasets/01-world_happiness_report/)
+| [Download](./datasets/01-world_happiness_report/)
 | José Eduardo Castellanos Narvaez
 1. **Milk Quality.** [Descripción](./datasets/02-milk-quality/milkQuality.md)
-| [Descarga](https://www.kaggle.com/datasets/yrohit199/milk-quality)
+| [Download](https://www.kaggle.com/datasets/yrohit199/milk-quality)
 | Baruc Cisneros Cruz
 3. **Wisconsin Diagnostic Breast Cancer (WDBC).** [Descripción](./datasets/03-Wisconsin-Diagnostic-Breast-Cancer/winsconsin-breast-cancer.md)
-|[Descarga](./../datasets/03-Wisconsin-Diagnostic-Breast-Cancer/breast-cancer-wisconsin.csv)
+|[Download](./../datasets/03-Wisconsin-Diagnostic-Breast-Cancer/breast-cancer-wisconsin.csv)
 | Leonel Cruz Peralta
 4. **Mushrooms.** [Descripción](https://github.com/Alejandro2000Lopez/Tarea-2_1-Dataset-Mushroom/blob/main/DataSet%20Mushroom.ipynb)
-|[Descarga](https://github.com/Alejandro2000Lopez/Tarea-2_1-Dataset-Mushroom/blob/main/mushrooms.csv)
+|[Download](https://github.com/Alejandro2000Lopez/Tarea-2_1-Dataset-Mushroom/blob/main/mushrooms.csv)
 | Jesús Alejandro López Guevara
 5. **Water.** [Descripción](./datasets/05-water/Water%20Datset.md)
-|[Descarga](./datasets/05-water/water_potability.csv)
+|[Download](./datasets/05-water/water_potability.csv)
 | William Mendez González
 6. **Wine.** [Descripción](./datasets/06-wine/06-wine.md)
-|[Descarga](https://archive.ics.uci.edu/ml/machine-learning-databases/wine/)
+|[Download](https://archive.ics.uci.edu/ml/machine-learning-databases/wine/)
 | Luis René Morales Velasco
 7. **Drug names.** [Descripción](./07-drug-names/DATASET.md)
-|[Descarga](./datasets/07-drug-names/dataset1/))
+|[Download](./datasets/07-drug-names/dataset1/))
 | Miguel Ángel Uribe Matus
