@@ -13,11 +13,19 @@ En esta clase el alumno conocerá:
   
 ### 1. Introducción al aprendizaje no supervizado
 
+El aprendizaje supervisado elimina al maestro y requiere que el alumno forme y evalué los conceptos por su cuenta. Los científicos son quizá el mejor ejemplo de aprendizaje no supervisado en humanos. Los científicos no tienen el beneficio de un maestro. En su lugar, ellos proponen hipótesis para explicar sus observaciones, evalúan sus hipótesis utilizando criterios como la simplicidad, la generalización y la elegancia; y prueban sus hipótesis a través de experimentos de su propio diseño.
+
+El agrupamiento  (o análisis de grupos)  es una técnica que nos permite encontrar grupos de objetos similares que esta más relacionados uno con otros que con otros del grupo. Ejemplos de aplicaciones de agrupamiento orientadas al negocio incluyen el agrupamiento de documentos, música y películas de diferentes temas, o encontrar clientes que tienen intereses similares basados en comportamiento de compras comunes com una base de un motor de recomendaciones. 
+
+Ejemplo de aprendizaje no supervisado
+
+* [K-means](./code/k_means_sklrn_iris.ipynb) 
+
+### 2. Etructura básica de SOM
 
 
-### Implementación 
 
-* [`Ejemplo Online`](./code/brackpropagation_online.ipynb)
+* [`Ejemplo Online`]()
 * [Práctica 1. ]()
 
 [`Anterior`](../L03-perceptron/README.md) | [`Siguiente`](../README.md)

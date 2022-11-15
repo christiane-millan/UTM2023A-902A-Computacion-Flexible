@@ -20,6 +20,8 @@ El alumno deberá estar capacitado para determinar en qué situaciones es conv
 
 [Unidad 4. Retropagación](./L04-backpropagation/README.md)
 
+[Unidad 5. Red de Kohonen](./L05-som/README.md)
+
 
 ## Datasets
 
