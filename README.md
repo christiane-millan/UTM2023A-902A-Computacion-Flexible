@@ -22,6 +22,8 @@ El alumno deberá estar capacitado para determinar en qué situaciones es conv
 
 [Unidad 5. Red de Kohonen](./L05-som/README.md)
 
+[Unidad 6. Lógica difusa](./L06-fuzzy-logic/README.md)
+
 ## Datasets
 
 1. **World Happiness Report.** [Descripción](./datasets/01-world_happiness_report/world_happiness_report.pdf)
