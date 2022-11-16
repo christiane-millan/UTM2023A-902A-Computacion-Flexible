@@ -45,3 +45,9 @@ El alumno deberá estar capacitado para determinar en qué situaciones es conv
 7. **Drug names.** [Descripción](./07-drug-names/DATASET.md)
 | [Download](./datasets/07-drug-names/dataset1/))
 | Miguel Ángel Uribe Matus
+8. **Smoke detection.** [Descripción](./datasets/08-smoke-detection/SmokeDetection.md)
+| [Download](./datasets/08-smoke-detection/smoke_detection_iot.csv)
+| Samuel Antonio Guerrero Hernández
+9. **Stars.** [Descripción](./datasets/09-stars/estrellas.ipynb)
+| [Download](./datasets/09-stars/estrellas.csv)
+| Brenda Negrete Sanchez
