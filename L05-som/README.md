@@ -19,7 +19,7 @@ El agrupamiento  (o análisis de grupos)  es una técnica que nos permite encont
 
 Ejemplo de aprendizaje no supervisado
 
-* [K-means](./code/k_means_sklrn_iris.ipynb) 
+* [`K-means`](./code/k_means_sklrn_iris.ipynb) 
 
 ### 2. Etructura básica de SOM
 
@@ -28,4 +28,4 @@ Ejemplo de aprendizaje no supervisado
 * [`Ejemplo Online`]()
 * [Práctica 1. ]()
 
-[`Anterior`](../L03-perceptron/README.md) | [`Siguiente`](../README.md)
+[`Anterior`](../L04-backpropagation/README.md) | [`Siguiente`](../README.md)
