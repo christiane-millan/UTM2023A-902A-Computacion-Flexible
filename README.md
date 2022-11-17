@@ -12,17 +12,12 @@ El alumno deberá estar capacitado para determinar en qué situaciones es conv
 
 ## Contenido
 
-[Unidad 1. Introducción](./L01-intro/README.md)
-
-[Unidad 2. Adaline](./L02-adaline/README.md)
-
-[Unidad 3. Perceptrón](./L03-perceptron/README.md)
-
-[Unidad 4. Retropagación](./L04-backpropagation/README.md)
-
-[Unidad 5. Red de Kohonen](./L05-som/README.md)
-
-[Unidad 6. Lógica difusa](./L06-fuzzy-logic/README.md)
+* [Unidad 1. Introducción](./L01-intro/README.md)
+* [Unidad 2. Adaline](./L02-adaline/README.md)
+* [Unidad 3. Perceptrón](./L03-perceptron/README.md)
+* [Unidad 4. Retropagación](./L04-backpropagation/README.md)
+* [Unidad 5. Red de Kohonen](./L05-som/README.md)
+* [Unidad 6. Lógica difusa](./L06-fuzzy-logic/README.md)
 
 ## Datasets
 
@@ -52,4 +47,7 @@ El alumno deberá estar capacitado para determinar en qué situaciones es conv
 | Samuel Antonio Guerrero Hernández
 9. **Stars.** [Descripción](./datasets/09-stars/estrellas.ipynb)
 | [Download](./datasets/09-stars/estrellas.csv)
-| Brenda Negrete Sanchez
+| Brenda Negrete Sánchez
+10. **Fetal Health Classification.** [Descripción](./datasets/10-Fetal-Health-Classification/Fetal_Health_Classification.md)
+| [Download](./datasets/10-Fetal-Health-Classification/fetal_health.csv)
+| David German Castro Ortiz
