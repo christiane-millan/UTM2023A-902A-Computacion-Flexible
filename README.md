@@ -51,3 +51,6 @@ El alumno deberá estar capacitado para determinar en qué situaciones es conv
 10. **Fetal Health Classification.** [Descripción](./datasets/10-Fetal-Health-Classification/Fetal_Health_Classification.md)
 | [Download](./datasets/10-Fetal-Health-Classification/fetal_health.csv)
 | David German Castro Ortiz
+11. **Heart Failure Prediction.** [Descripción](./datasets/11-heart-failure-prediction/heart-failure-prediction-dataset.ipynbd)
+| [Download](https://www.kaggle.com/datasets/rithikkotha/heart-failure-clinical-records-dataset)
+| Austín López Ituarte
