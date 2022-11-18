@@ -25,4 +25,4 @@ Estas redes tienen un tipo especial de conexión entre capas llamado MLP.
 * [`Ejemplo Online`](./code/brackpropagation_online.ipynb)
 * [Práctica 1. ]()
 
-[`Anterior`](../L03-perceptron/README.md) | [`Siguiente`](../README.md)
+[`Anterior`](../L03-perceptron/README.md) | [`Siguiente`](../L05-som/README.md)
