@@ -27,4 +27,7 @@ Ejemplo de aprendizaje no supervisado
 
 [`SOM unidimensional paso a paso`](./code/som_unidimensional.ipynb)
 
+### 4. Visualización de clústers
+
+
 [`Anterior`](../L04-backpropagation/README.md) | [`Siguiente`](../L06-fuzzy-logic/README.md)
